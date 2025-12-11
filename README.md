@@ -119,4 +119,4 @@ Free to use, modify, and redistribute.
 
 ## Author
 
-Developed using AI assistance (ChatGPT) and refined into a clean, stable final version.
+Developed by Chessito
