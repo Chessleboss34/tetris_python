@@ -1,31 +1,34 @@
 """
-Tetris - Version finale améliorée (avec Cheat)
+Tetris - Final Enhanced Version (with Cheat)
 
-Fonctionnalités :
-- Grille 10x20, 7 tetrominos, rotations
-- Next piece, Hold, Ghost piece
-- Soft drop / Hard drop
-- Aide (suggestion) calculée selon heuristique
-- Cheat : un bouton qui place automatiquement la pièce courante à la meilleure position (rotation + x + y) et la verrouille
-- Bouton Restart
-- Game Over clair quand la pile atteint le haut
+Features:
 
-Exécution :
-- Installer Pygame : pip install pygame
-- Lancer : python3 tetris_v3.py
+* 10x20 grid, 7 tetrominoes, full rotation
+* Next piece, Hold, Ghost piece
+* Soft drop / Hard drop
+* Help (suggestion) calculated via heuristic
+* Cheat: a button that automatically places the current piece in the best position (rotation + x + y) and locks it
+* Restart button
+* Clear Game Over when the stack reaches the top
 
-Contrôles :
-- Gauche / Droite : déplacer
-- Haut / Z : rotation horaire
-- X : rotation anti-horaire
-- Bas : soft drop
-- Espace : hard drop
-- C : hold
-- Clique Aide : afficher / cacher la suggestion
-- Clique Cheat : place instantanément la pièce au meilleur emplacement
-- Clique Restart : redémarrer
-- Q / ESC : quitter
-"""
+Execution:
+
+* Install Pygame: pip install pygame
+* Run: python3 tetris_game.py
+
+Controls:
+
+* Left / Right: move
+* Up / Z: rotate clockwise
+* X: rotate counter-clockwise
+* Down: soft drop
+* Space: hard drop
+* C: Hold
+* Help button: show/hide suggestion
+* Cheat button: instantly place the piece in the best spot
+* Restart button: restart game
+* Q / ESC: quit
+  """
 
 import pygame
 import random
